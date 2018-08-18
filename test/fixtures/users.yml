@@ -1,3 +1,8 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 #I, eric, under instruction of the tutorial made this file empty since it had two fixtures with an identical email.
+#
+michael:
+  name: Michael Example
+  email: michael@example.com
+  password_digest: <%= User.digest('password') %>
